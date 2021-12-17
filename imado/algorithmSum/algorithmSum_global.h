@@ -1,0 +1,12 @@
+#ifndef ALGORITHMSUM_GLOBAL_H
+#define ALGORITHMSUM_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(ALGORITHMSUM_LIBRARY)
+#  define ALGORITHMSUM_EXPORT Q_DECL_EXPORT
+#else
+#  define ALGORITHMSUM_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // ALGORITHMSUM_GLOBAL_H
